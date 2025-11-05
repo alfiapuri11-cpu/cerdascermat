@@ -1,44 +1,15 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lomba Cerdas Cermat Pramuka</title>
-
-  <!-- Menghubungkan ke file CSS -->
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Cerdas Cermat Pramuka</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Wadah utama kuis -->
-  <div class="quiz-container">
-    <header>
-      <h1>🏕️ Lomba Cerdas Cermat Pramuka</h1>
-      <!-- Menampilkan progres soal -->
-      <p id="progress">Soal ke-1 dari 5</p>
-    </header>
-
-    <!-- Bagian utama kuis -->
-    <main id="quiz">
-      <!-- Pertanyaan akan dimasukkan lewat JavaScript -->
-      <h2 id="question">Pertanyaan akan muncul di sini</h2>
-      <!-- Tombol jawaban akan dibuat dinamis oleh JavaScript -->
-      <div id="answer-buttons" class="btn-grid"></div>
-    </main>
-
-    <!-- Tombol untuk lanjut ke soal berikutnya -->
-    <footer>
-      <button id="next-btn" class="next-btn">Soal Berikutnya ➡️</button>
-    </footer>
+  <div class="container">
+    <h1>🏕️ Lomba Cerdas Cermat Pramuka</h1>
+    <button onclick="window.location.href='host.html'">👑 Buat Room</button>
+    <button onclick="window.location.href='player.html'">🎮 Ikut Room</button>
   </div>
-
-  <!-- Tampilan hasil akhir -->
-  <div id="result-container" class="hidden">
-    <h2>🎉 Skor Akhir Kamu</h2>
-    <p id="score"></p>
-    <button id="restart-btn">Ulangi Kuis 🔁</button>
-  </div>
-
-  <!-- Menghubungkan ke file JavaScript -->
-  <script src="script.js"></script>
 </body>
 </html>
