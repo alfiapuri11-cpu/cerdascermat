@@ -1,0 +1,78 @@
+/* ===== Styling dasar untuk seluruh halaman ===== */
+body {
+  background: linear-gradient(135deg, #00897b, #004d40);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* ===== Wadah utama kuis ===== */
+.quiz-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* ===== Judul dan progres ===== */
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* ===== Tata letak tombol jawaban ===== */
+.btn-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+/* ===== Gaya umum tombol ===== */
+button {
+  background-color: #00695c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Efek hover tombol */
+button:hover {
+  background-color: #26a69a;
+}
+
+/* Tombol berikutnya awalnya disembunyikan */
+.next-btn {
+  margin-top: 1rem;
+  display: none;
+}
+
+/* Warna hijau untuk jawaban benar */
+.correct {
+  background-color: #2e7d32;
+}
+
+/* Warna merah untuk jawaban salah */
+.wrong {
+  background-color: #c62828;
+}
+
+/* Menyembunyikan elemen (hasil akhir sebelum tampil) */
+.hidden {
+  display: none;
+}
+
+/* Gaya tampilan hasil akhir */
+#result-container {
+  text-align: center;
+}
